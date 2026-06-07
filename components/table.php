@@ -33,7 +33,7 @@ $view_href  = $show_all ? 'index.php' : 'pages/statistik-layanan-publik.php';
     </div>
   </div>
 
-  <div style="overflow-x:auto;">
+  <div class="data-table-wrap">
     <table class="data-table" id="<?= htmlspecialchars($table_id) ?>"
            <?= !$show_all ? "data-paginate=\"$rows_per\"" : '' ?>
            aria-label="Data fasilitas kesehatan Kota Denpasar">

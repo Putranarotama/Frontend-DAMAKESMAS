@@ -12,9 +12,7 @@
     <div class="hero-content" data-animate data-animate-delay="0">
       <h1 class="hero-title" id="hero-title">DAMAKESMAS</h1>
       <p class="hero-desc">
-        Denpasar Mantap Kesehatan Masyarakat adalah program inovasi unggulan dari
-        Pemerintah Kota Denpasar yang berfokus pada pelayanan kesehatan masyarakat
-        secara terpadu dan responsif.
+        Denpasar Mantap Kesehatan Masyarakat adalah program inovasi unggulan dari Kota Denpasar yang berfokus pada pelayanan kesehatan masyarakat secara terpadu dan responsif.
       </p>
     </div>
 
@@ -22,7 +20,7 @@
     <div class="hero-cards" data-animate data-animate-delay="100">
 
       <!-- Login DAMAKESMAS -->
-      <a href="#login" class="hero-card" aria-label="Login DAMAKESMAS">
+      <a href="pages/login.php" class="hero-card" aria-label="Login DAMAKESMAS">
         <div class="hero-card-icon">
           <img
             src="/damakesmas/assets/img/logo-kota-denpasar.png"

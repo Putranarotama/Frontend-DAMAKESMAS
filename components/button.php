@@ -1,15 +1,4 @@
 <?php
-/**
- * components/button.php
- * Reusable button variants untuk DAMAKESMAS
- *
- * Usage:
- *   $btn = ['label'=>'Cari','variant'=>'primary','icon'=>'search','href'=>null,'type'=>'button','size'=>'md','id'=>'','attrs'=>''];
- *   include 'components/button.php';
- *
- * Variants: primary | secondary | ghost | danger
- * Sizes:    sm | md | lg
- */
 
 $btn = $btn ?? [];
 $label   = htmlspecialchars($btn['label']   ?? 'Button');

@@ -8,10 +8,10 @@ $base_path  = '../';
 ob_start();
 ?>
 <?php include '../components/hero.php'; ?>
-<div style="background:#F5F7F6;padding-bottom:3rem;">
+<div class="content-wrapper" style="background:#F5F7F6; padding-bottom:3rem;">
   <div class="container">
     <?php include '../components/filter-bar.php'; ?>
-    <section class="section" style="padding-left:0;padding-right:0;" aria-labelledby="faskes-full-title">
+    <section class="section"aria-labelledby="faskes-full-title">
       <h2 class="section-title" id="faskes-full-title">Informasi Titik Faskes</h2>
       <!-- Extended map with taller height -->
       <div class="map-card" data-animate>
@@ -30,7 +30,6 @@ ob_start();
           </iframe>
           <div class="location-card">
             <div class="location-card-name">Denpasar</div>
-            <div class="location-card-address">Denpasar, Denpasar City, Bali, Indonesia</div>
             <div class="location-card-actions">
               <button class="location-card-btn" title="Lihat di Google Maps">
                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#1A4A3C" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3"/></svg>
@@ -40,15 +39,9 @@ ob_start();
               </button>
             </div>
           </div>
-          <div class="map-popup" data-popup>
-            <button class="map-popup-close" data-popup-close>&times;</button>
-            <div class="map-popup-title">Active Hub Focus</div>
-            <p class="map-popup-desc">Region 5–12 shows a 15% increase in respiratory consultations. Immediate resource mobilization recommended.</p>
-          </div>
-        </div>
-      </div>
+
     </section>
-    <section class="section" style="padding-left:0;padding-right:0;padding-top:0;">
+    <section class="section">
       <?php $show_all=true; $table_id='faskes-map'; include '../components/table.php'; ?>
     </section>
   </div>

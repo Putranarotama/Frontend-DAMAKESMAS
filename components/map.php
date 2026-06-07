@@ -28,28 +28,3 @@
       title="Peta titik fasilitas kesehatan Kota Denpasar"
       aria-label="Google Maps menampilkan titik fasilitas kesehatan di Kota Denpasar">
     </iframe>
-
-    <!-- Location card overlay (top-left) -->
-    <div class="location-card" aria-label="Lokasi saat ini">
-      <div class="location-card-name">Denpasar</div>
-      <div class="location-card-address">Denpasar, Denpasar City, Bali, Indonesia</div>
-      <div class="location-card-actions" aria-hidden="true">
-        <button class="location-card-btn" title="Lihat di Google Maps">
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#1A4A3C" stroke-width="2"><path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3"/></svg>
-        </button>
-        <button class="location-card-btn" title="Petunjuk arah">
-          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#1A4A3C" stroke-width="2"><polygon points="3 11 22 2 13 21 11 13 3 11"/></svg>
-        </button>
-      </div>
-    </div>
-
-    <!-- Active Hub Popup (top-right) -->
-    <div class="map-popup" data-popup role="complementary" aria-label="Informasi hub aktif">
-      <button class="map-popup-close" data-popup-close aria-label="Tutup popup">&times;</button>
-      <div class="map-popup-title">Active Hub Focus</div>
-      <p class="map-popup-desc">
-        Region 5–12 shows a 15% increase in respiratory consultations. Immediate resource mobilization recommended.
-      </p>
-    </div>
-  </div>
-</div>

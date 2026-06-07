@@ -12,14 +12,14 @@ ob_start();
 <?php include 'components/hero.php'; ?>
 
 <!-- Outer wrapper with background -->
-<div style="background:#F5F7F6; padding-bottom:3rem;">
+<div class="content-wrapper" style="background:#F5F7F6; padding-bottom:3rem;">
   <div class="container">
 
     <!-- Filter Bar (overlaps hero) -->
     <?php include 'components/filter-bar.php'; ?>
 
     <!-- Pelayanan Publik -->
-    <section class="section" style="padding-left:0;padding-right:0;" aria-labelledby="pelayanan-title">
+    <section class="section" aria-labelledby="pelayanan-title">
       <div>
         <h2 class="section-title" id="pelayanan-title">Pelayanan Publik</h2>
         <?php include 'components/service-cards.php'; ?>
@@ -27,7 +27,7 @@ ob_start();
     </section>
 
     <!-- Statistik Layanan Publik -->
-    <section class="section" style="padding-left:0;padding-right:0;padding-top:0;" aria-labelledby="statistik-title">
+    <section class="section" aria-labelledby="statistik-title">
       <div>
         <h2 class="section-title" id="statistik-title">Statistik Layanan Publik</h2>
         <?php
@@ -39,7 +39,7 @@ ob_start();
     </section>
 
     <!-- Informasi Titik Faskes -->
-    <section class="section" style="padding-left:0;padding-right:0;padding-top:0;" aria-labelledby="faskes-title">
+    <section class="section" aria-labelledby="faskes-title">
       <div>
         <h2 class="section-title" id="faskes-title">Informasi Titik Faskes</h2>
         <?php include 'components/map.php'; ?>

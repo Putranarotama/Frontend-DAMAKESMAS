@@ -8,19 +8,19 @@ $base_path  = '../';
 ob_start();
 ?>
 <?php include '../components/hero.php'; ?>
-<div style="background:#F5F7F6;padding-bottom:3rem;">
+<div class="content-wrapper" style="background:#F5F7F6; padding-bottom:3rem;">
   <div class="container">
     <?php include '../components/filter-bar.php'; ?>
-    <section class="section" style="padding-left:0;padding-right:0;" aria-labelledby="stat-full-title">
+    <section class="section"aria-labelledby="stat-full-title">
       <h2 class="section-title" id="stat-full-title">Statistik Layanan Publik</h2>
       <?php
         include '../components/service-cards.php';
       ?>
     </section>
-    <section class="section" style="padding-left:0;padding-right:0;padding-top:0;">
+    <section class="section">
       <?php $show_all=true; $table_id='faskes-full'; include '../components/table.php'; ?>
     </section>
-    <section class="section" style="padding-left:0;padding-right:0;padding-top:0;" aria-labelledby="map-stat-title">
+    <section class="section"aria-labelledby="map-stat-title">
       <h2 class="section-title" id="map-stat-title">Informasi Titik Faskes</h2>
       <?php include '../components/map.php'; ?>
     </section>
