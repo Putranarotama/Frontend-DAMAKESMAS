@@ -95,7 +95,6 @@ Sistem menggunakan `BASE_URL` sehingga proyek dapat dijalankan pada nama folder 
 ## Tim Pengembang
 
 DAMAKESMAS Frontend Project  
-Pemerintah Kota Denpasar
 
 ---
 
